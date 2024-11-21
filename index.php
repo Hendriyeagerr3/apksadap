@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jualan Aplikasi Premium</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fafb;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .banner {
+            max-width: 100%;
+            height: 300px;
+            overflow: hidden;
+        }
+        .banner img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        .feature-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .feature-card img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+        }
+        .feature-card h3 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .feature-card p {
+            color: #555;
+            margin: 0 0 15px;
+        }
+        .feature-card .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        .feature-card .btn:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aplikasi Sadap</h1>
+        <p>Solusi Terbaik untuk Kebutuhan Digital Anda</p>
+    </header>
+    <div class="banner">
+        <img src="banner1.gif" alt="Promo Banner">
+    </div>
+    <div class="container">
+        <div class="features">
+            <div class="feature-card">
+                <img src="sms.png" alt="Basic">
+                <h3>Apk Sadap Sms</h3>
+                <p>Apk ini juga kalian bisa dapatin</p>
+               <li>Sms</li>
+               
+                <a href="https://wa.me/6282295328367?text=Halo%20Admin,%20saya%20mau%20beli%20apk%20sadap%20sms" class="btn">Beli Sekarang</a>
+            </div>
+            <div class="feature-card">
+                <img src="gallery.png" alt="Advanced">
+                <h3>Apk Sadap Gallery</h3>
+                <p>Apk ini juga kalian bisa dapatin</p>
+               <li>Gallery </li>
+                <a href="https://wa.me/6282295328367?text=Halo%20Admin,%20saya%20mau%20beli%20apk%20sadap%20gallery" class="btn">Beli Sekarang</a>
+            </div>
+            <div class="feature-card">
+                <img src="wa.png" alt="Professional">
+                <h3>Apk Sadap Whatsapp</h3>
+                <p>Apk ini juga kalian bisa dapatin</p>
+               <li>Sms</li>
+               <li>Chat WhatsApp </li>
+               <li>Gallery </li>
+               <li>Lokasi </li>
+               <li>File  </li>
+               <li>DLL  </li>
+                <a href="https://wa.me/6282295328367?text=Halo%20Admin,%20saya%20mau%20beli%20apk%20sadap%20whatsapp" class="btn">Beli Sekarang</a>
+            </div>
+            <div class="feature-card">
+                <img src="lokasi.png" alt="Premium">
+                <h3>Apk Sadap Lokasi</h3>
+                <p>Apk ini juga kalian bisa dapatin</p>
+               <li>Lokasi </li>
+                <a href="https://wa.me/6282295328367?text=Halo%20Admin,%20saya%20mau%20beli%20apk%20sadap%20lokasi" class="btn">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Penjualan Aplikasi Sadap. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
